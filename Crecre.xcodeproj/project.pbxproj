@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A123A60722C9187100827AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123A60622C9187100827AAB /* AppDelegate.swift */; };
+		A123A60922C9187100827AAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123A60822C9187100827AAB /* ViewController.swift */; };
+		A123A60C22C9187100827AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A123A60A22C9187100827AAB /* Main.storyboard */; };
+		A123A60E22C9187300827AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A123A60D22C9187300827AAB /* Assets.xcassets */; };
+		A123A61122C9187300827AAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A123A60F22C9187300827AAB /* LaunchScreen.storyboard */; };
+		A123A61922C91E2B00827AAB /* gittest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123A61822C91E2B00827AAB /* gittest.swift */; };
+		B0E51E26CEA6E700AC9BA987 /* Pods_Crecre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2A03290A2594ABFF5FE1BF /* Pods_Crecre.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B2A03290A2594ABFF5FE1BF /* Pods_Crecre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crecre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		381C40DA54780466CCD2A9C0 /* Pods-Crecre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crecre.release.xcconfig"; path = "Target Support Files/Pods-Crecre/Pods-Crecre.release.xcconfig"; sourceTree = "<group>"; };
+		A123A60322C9187100827AAB /* Crecre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crecre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A123A60622C9187100827AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A123A60822C9187100827AAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A123A60B22C9187100827AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A123A60D22C9187300827AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A123A61022C9187300827AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A123A61222C9187300827AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A123A61822C91E2B00827AAB /* gittest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gittest.swift; sourceTree = "<group>"; };
+		DCB072E1B02D801B47CF4B94 /* Pods-Crecre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crecre.debug.xcconfig"; path = "Target Support Files/Pods-Crecre/Pods-Crecre.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A123A60022C9187100827AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E51E26CEA6E700AC9BA987 /* Pods_Crecre.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5480952F83762B2EF9C58F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B2A03290A2594ABFF5FE1BF /* Pods_Crecre.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C368333BD56BAF8FBA7CE11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCB072E1B02D801B47CF4B94 /* Pods-Crecre.debug.xcconfig */,
+				381C40DA54780466CCD2A9C0 /* Pods-Crecre.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A123A5FA22C9187100827AAB = {
+			isa = PBXGroup;
+			children = (
+				A123A60522C9187100827AAB /* Crecre */,
+				A123A60422C9187100827AAB /* Products */,
+				7C368333BD56BAF8FBA7CE11 /* Pods */,
+				2E5480952F83762B2EF9C58F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A123A60422C9187100827AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A123A60322C9187100827AAB /* Crecre.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A123A60522C9187100827AAB /* Crecre */ = {
+			isa = PBXGroup;
+			children = (
+				A123A60622C9187100827AAB /* AppDelegate.swift */,
+				A123A61822C91E2B00827AAB /* gittest.swift */,
+				A123A60822C9187100827AAB /* ViewController.swift */,
+				A123A60A22C9187100827AAB /* Main.storyboard */,
+				A123A60D22C9187300827AAB /* Assets.xcassets */,
+				A123A60F22C9187300827AAB /* LaunchScreen.storyboard */,
+				A123A61222C9187300827AAB /* Info.plist */,
+			);
+			path = Crecre;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A123A60222C9187100827AAB /* Crecre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A123A61522C9187300827AAB /* Build configuration list for PBXNativeTarget "Crecre" */;
+			buildPhases = (
+				717F33E2658E7A94AD5CEFD5 /* [CP] Check Pods Manifest.lock */,
+				A123A5FF22C9187100827AAB /* Sources */,
+				A123A60022C9187100827AAB /* Frameworks */,
+				A123A60122C9187100827AAB /* Resources */,
+				AEE2748AC15820E881A19F02 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crecre;
+			productName = Crecre;
+			productReference = A123A60322C9187100827AAB /* Crecre.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A123A5FB22C9187100827AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "황채연";
+				TargetAttributes = {
+					A123A60222C9187100827AAB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A123A5FE22C9187100827AAB /* Build configuration list for PBXProject "Crecre" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A123A5FA22C9187100827AAB;
+			productRefGroup = A123A60422C9187100827AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A123A60222C9187100827AAB /* Crecre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A123A60122C9187100827AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A123A61122C9187300827AAB /* LaunchScreen.storyboard in Resources */,
+				A123A60E22C9187300827AAB /* Assets.xcassets in Resources */,
+				A123A60C22C9187100827AAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		717F33E2658E7A94AD5CEFD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crecre-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE2748AC15820E881A19F02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crecre/Pods-Crecre-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crecre/Pods-Crecre-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crecre/Pods-Crecre-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A123A5FF22C9187100827AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A123A61922C91E2B00827AAB /* gittest.swift in Sources */,
+				A123A60922C9187100827AAB /* ViewController.swift in Sources */,
+				A123A60722C9187100827AAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A123A60A22C9187100827AAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A123A60B22C9187100827AAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A123A60F22C9187300827AAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A123A61022C9187300827AAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A123A61322C9187300827AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A123A61422C9187300827AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A123A61622C9187300827AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB072E1B02D801B47CF4B94 /* Pods-Crecre.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Crecre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chaeyeon.Crecre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A123A61722C9187300827AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381C40DA54780466CCD2A9C0 /* Pods-Crecre.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Crecre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chaeyeon.Crecre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A123A5FE22C9187100827AAB /* Build configuration list for PBXProject "Crecre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A123A61322C9187300827AAB /* Debug */,
+				A123A61422C9187300827AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A123A61522C9187300827AAB /* Build configuration list for PBXNativeTarget "Crecre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A123A61622C9187300827AAB /* Debug */,
+				A123A61722C9187300827AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A123A5FB22C9187100827AAB /* Project object */;
+}
